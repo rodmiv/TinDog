@@ -2,30 +2,77 @@
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.5;
-    color: white;
+    /* color: white; */
     padding: 10% 0 10% 0;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* By Classes */
 .container-fluid{
-    padding: 3% 15%;
+    padding: 1% 8%;
 }
 .navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.tindog-brand{
     font-family: 'Ubuntu';
     font-size: 2.5rem;
+    font-weight: 400;
 }
 .dog{
     padding-top: 20%;
     transform: rotate(30deg);
 }
+.icons{
+    color: #ef8172;
+    /* font-size: 4rem; */
+    margin-bottom: 1rem;
+    
+}
+.icons:hover{
+    color: #ff4c68;
+    font-size: 5rem;
+    
+}
+.feat{
+    padding: 0 7%;
+}
+.f-text{
+    color: #8f8f8f;
+}
+
+
 /* By ID */
 #title{
     background-color: #ff4c68;
+    color: #fff;
 }
 
 #Nav{
     font-size: 1.5rem;
+    font-family:  'Ubuntu';
+    padding-bottom: 4.5rem;
+}
+#features{
+    margin: 10% 15%;
+    text-align: center;
 }
 
+.nav-item{
+    padding: 0 18px;
+}
+
+.btnblack{
+    padding-right: 20%;
+}
