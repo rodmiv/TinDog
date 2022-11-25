@@ -37,6 +37,7 @@ body{
 }
 .dog{
     /* padding-top: 20%; */
+    width: 60%;
     transform: rotate(30deg);
     position: relative;
     z-index: 1;
@@ -86,7 +87,7 @@ body{
 #Nav{
     font-size: 1.5rem;
     font-family:  'Ubuntu';
-    padding-bottom: 4.5rem;
+    padding-bottom: 3.5rem;
 }
 #features{
     padding: 7% 15%;
@@ -120,4 +121,61 @@ body{
 
 .btnblack{
     padding-right: 20%;
+}
+
+
+
+/* Call To Action Section*/
+
+.slog{
+    padding: 7% 15%;
+}
+.slog-text{
+    font-size: 3rem;
+    margin: 0 0 5% 0;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+.btn-bottom{
+    margin: 2%;
+}
+#cta{
+    background-color: #ff4c68;    
+    color: #fff;
+    text-align: center;
+    /* height: 40vh; */
+}
+
+/* Footer Section*/
+
+.ico{
+    margin: 0.5%;
+    color: grey;
+}
+.ico:hover{
+    color: black;
+}
+
+#footer{
+    text-align: center;
+    padding: 3%;
+    background-color: #fff;
+    color: lightslategray;
+    font-size: 15px;
+}
+
+
+@media (max-width: 990px){
+    #title{
+        text-align: center;
+        height: 150vh;
+    }
+    #Nav{
+        padding-bottom: 0.5rem;
+    }
+    .dog{
+        padding-top: 10%;
+        position: static;
+        transform: rotate(0);
+    }
 }
