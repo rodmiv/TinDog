@@ -1,34 +1,43 @@
-/* By Type */
-h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-    /* color: white; */
-    padding: 10% 0 10% 0;
-}
-h2{
+/******************************************/
+/*              HTML SELECTORS            */
+/******************************************/
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat';
     font-weight: 900;
+}
+
+h2{    
     font-size: 3rem;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
     font-size: 1.5rem;
 }
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
-/* By Classes */
-.container-fluid{
-    padding: 1% 8%;
+/******************************************/
+/*              TITLE SECTION             */
+/******************************************/
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    height: 100vh;
+    position: relative;
+}
+#Nav{
+    font-size: 1.5rem;
+    font-family:  'Ubuntu';
+    padding-bottom: 3.5rem;
 }
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
+}
+.container-fluid{
+    padding: 1% 8%;
 }
 .tindog-brand{
     font-family: 'Ubuntu';
@@ -43,6 +52,24 @@ body{
     z-index: 1;
     right: -20%;
 }
+.nav-item{
+    padding: 0 18px;
+}
+
+.btnblack{
+    padding-right: 20%;
+}
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10% 0 10% 0;
+}
+/******************************************/
+/*            FEATURES SECTION            */
+/******************************************/
+
 .icons{
     color: #ef8172;
     /* font-size: 4rem; */
@@ -60,35 +87,6 @@ body{
 .f-text{
     color: #8f8f8f;
 }
-.testimonial-image{
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
-}
-.press_logo{
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-.carousel-item{
-    padding: 7% 15%;
-}
-.pricing-column{
-    padding: 3% 2%;
-}
-
-/* By ID */
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-    height: 100vh;
-    position: relative;
-}
-
-#Nav{
-    font-size: 1.5rem;
-    font-family:  'Ubuntu';
-    padding-bottom: 3.5rem;
-}
 #features{
     padding: 7% 15%;
     text-align: center;
@@ -97,35 +95,59 @@ body{
     position: relative;
 }
 
+/******************************************/
+/*          TESTIMONIALS SECTION          */
+/******************************************/
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
 #testimonials{
     
     text-align: center;
     background-color: #ff4c68;
     color: #fff;
 }
-
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/******************************************/
+/*              PRESS SECTION             */
+/******************************************/
+.press_logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
 #press{
     background-color: #ff4c68;
     text-align: center;
     padding-bottom: 3%;
 }
-
+/******************************************/
+/*             PRICING SECTION            */
+/******************************************/
+.pricing-column{
+    padding: 3% 2%;
+}
 #pricing{
     padding: 100px;
     text-align: center;
 }
 
-.nav-item{
-    padding: 0 18px;
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
-.btnblack{
-    padding-right: 20%;
-}
-
-
-
-/* Call To Action Section*/
+/******************************************/
+/*               CTA SECTION              */
+/******************************************/
 
 .slog{
     padding: 7% 15%;
@@ -145,8 +167,9 @@ body{
     text-align: center;
     /* height: 40vh; */
 }
-
-/* Footer Section*/
+/******************************************/
+/*                  FOOTER                */
+/******************************************/
 
 .ico{
     margin: 0.5%;
@@ -164,6 +187,9 @@ body{
     font-size: 15px;
 }
 
+/******************************************/
+/*            MEDIA FUNCTIONS             */
+/******************************************/
 
 @media (max-width: 990px){
     #title{
